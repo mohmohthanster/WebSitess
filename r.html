@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+</head>
+<body bgcolor="mintcream">
+<table width="50%" align="center" style="background: lightgreen;">
+	<tr style="height: 70px;">
+		<td style="border: double; text-align: center;"><font color="green" size="300">Learner Registration Form</font></td>
+	</tr>
+	<tr>
+		<td style="padding-top: 30px; padding-left: 50px;">
+		<form>
+			Name:<br><input type="text" name="n" size="70" placeholder="Enter Full Name."><br><br>
+			Father's Name:<br><input type="text" name="fn" size="70">
+			<br><br>
+			Mother's Name:<br><input type="text" name="mn" size="70">
+			<br><br>
+			MobilePhone Number:<br><input type="tel" name="pn" size="70" Pattern="09[0-9]{9}" placeholder="09xxxxxxxxx">
+			<br><br>
+			Email:<br><input type="email" name="em" size="70" placeholder="sample@example.com"><br><br>
+			Gender:<br>
+			<input type="radio" name="rb" id="rb1">
+			<label for="rb1">Male</label>
+			<input type="radio" name="rb" id="rb2">
+			<label for="rb2">Female</label>
+			<input type="radio" name="rb" id="rb3">
+			<label for="rb3">Other</label><br><br>
+			Date of Birth:<br><input type="date" name="dob"><br><br>
+			Address:<br><input type="text" name="n" size="70" placeholder="House, Street, Township, State/Division"><br><br>
+			Blood Group:<br>
+			<select name="bg" >
+<option value="a" >A</option >
+<option value="b">B</option >
+<option value="o">O</option >
+<option value="other"> Other </option >
+</select>
+<br><br>
+Course:<br>
+<input type="checkbox" name="cb1" id="cb1">
+<label for="cb1">Beginner</label><br>
+<input type="checkbox" name="cb2" id="cb2">
+<label for="cb2">Intermediate</label><br>
+<input type="checkbox" name="cb3" id="cb3">
+<label for="cb3">Advance</label>
+<br><br>
+Bio Photo:<br><input type="file" name="file"><br><br>
+
+<label for="Qu">Desired Classmates</label><br>
+	<input type="number" id="Qu" name="num" min="5" max="20" step="5" value="10"><br><br>
+
+	<input type="submit" name="r" value="Register">
+	<input type="reset" name="rs" value="Reset">
+		</form>
+		</td>
+	</tr>
+	
+
+</table>
+</body>
+</html>
