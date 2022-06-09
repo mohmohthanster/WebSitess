@@ -15,22 +15,31 @@
 	<tr>
 		<td style="padding-top: 30px; padding-left: 50px;">
 		<form>
-			To:<br>
+			<table>
+				<tr>
+					<td width="30%">
+			To:</td>
+			<td>
 			<input list="whom">
 <datalist id="whom">
 	<option value="Principal">
 	<option value="Manager">
 	<option value="Trainer">
-</datalist><br><br>
-			Name:<br><input type="text" name="n" size="70" placeholder="Enter Full Name."><br><br>
+</datalist></td>
+</tr>
+<tr>
+			<td>Name:</td><td><input type="text" name="n" size="70" placeholder="Enter Full Name."></td></tr>
 			
-			Email:<br><input type="email" name="em" size="70" placeholder="sample@example.com"><br><br>
+<tr>
+			<td>Email:</td><td><input type="email" name="em" size="70" placeholder="sample@example.com"></td></tr>
 			
-			Feedback:<br><textarea name="fb" rows="3" cols="60" placeholder="Please type your comment."></textarea> <br><br>
+	<tr>
+			<td>		Feedback:</td><td><textarea name="fb" rows="3" cols="60" placeholder="Please type your comment."></textarea> </td></tr>
 			
-
-	<input type="submit" name="r" value="Submit" align="center">
-
+<tr>
+			<th colspan="2">
+	<input type="submit" name="r" value="Submit" align="center"></th></tr>
+</table>
 		</form>
 		</td>
 	</tr>
